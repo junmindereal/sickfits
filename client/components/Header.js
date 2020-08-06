@@ -1,9 +1,13 @@
+import Link from "next/link";
 import Nav from "./Nav";
+
 const Header = () => {
   return (
     <header>
-      <div className="logo">
-        <a>sickfits</a>
+      <div>
+        <Link href="/">
+          <a>sickfits</a>
+        </Link>
       </div>
       <Nav />
     </header>
