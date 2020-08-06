@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "./Header";
 
 const Page = ({ children }) => {
   return (
-    <div>
-      <p>hey I'm the page component</p>
+    <div className="page">
+      <Header />
       {children}
     </div>
   );
